@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/locationList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toggleButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="40dp"
+        android:text="Add"
+        android:textColor="@color/white" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/addButton"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/white" />
+ 
+</RelativeLayout>

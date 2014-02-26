@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocooMode</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Time">Time</string>
+    <string name="Location">Location</string>
+    <string name="Calendar">Calendar</string>
+    <string name="DesignTimeScreen">Design Time Screen</string>
+
+    <string-array name="spinner_items">
+        <item>Normal Mode</item>
+        <item>Silence Mode</item>
+        <item>Vibrate Mode</item>
+    </string-array>
+
+</resources>
